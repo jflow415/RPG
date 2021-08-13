@@ -33,35 +33,40 @@ rooms = {
             'Hall' : {
                   'south' : 'Kitchen',
                   'east'  : 'Dining Room',
-                  'item'  : 'key'
+                  'item'  : 'key',
+                  'description' : 'You are in the Hall of the dead. Steal your fears and push onward young champion. To the east is the dining room and to the south is the kitchen.',
                 },
 
             'Kitchen' : {
                   'north' : 'Hall',
                   'south' : 'Torture Room',
                   'item'  : 'monster',
+                  'description' : 'You hear blades being sharpened around you. Look out for Teddy! To the north is the hall and to the south is the Torture room.',
                 },
-                #added torture room
+                #added torture room with chain item
                 'Torture Room' :{
                     'north' : 'Kitchen',
                     'item' : 'chains',
+                    'description' : 'You made it pass Teddy young champion! Now you are in the torture room. There is no way to go but back up.',
                 },
             'Dining Room' : {
                   'west' : 'Hall',
                   'south': 'Garden',
                   'item' : 'potion',
                   'north' : 'Pantry',
+                  'description' : 'The dining room only has one chair, but four plates are are set? To the west is the Hall. To the south is the pantry and the garden lies below', 
                },
                #added items to garden
             'Garden' : {
                   'north' : 'Dining Room',
                   'item' : 'healthy herb',
+                  'description' : 'The garden is a safe haven with plenty of fruits and vegitables. To the north is the dining room and to the south is the freedom room.'
                },
             'Pantry' : {
                   'south' : 'Dining Room',
                   'item' : 'cookie',
             },
-            #added freedom room with items 
+            #added freedom room with items (there is no true escape)
             'Freedom room' : {
                 'north' : 'Garden',
                 'item' : 'bible'
