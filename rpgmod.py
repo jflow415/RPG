@@ -41,13 +41,13 @@ rooms = {
                   'north' : 'Hall',
                   'south' : 'Torture Room',
                   'item'  : 'monster',
-                  'description' : 'You hear blades being sharpened around you. Look out for Teddy! To the north is the hall and to the south is the Torture room.',
+                  'description' : 'You hear blades being sharpened around you. Look out for Teddy! To the north is the hall and to the south is the Torture room.'
                 },
                 #added torture room with chain item
                 'Torture Room' :{
                     'north' : 'Kitchen',
                     'item' : 'chains',
-                    'description' : 'You made it pass Teddy young champion! Now you are in the torture room. There is no way to go but back up.',
+                    'description' : 'You made it pass Teddy young champion! Now you are in the torture room. There is no way to go but back up.'
                 },
             'Dining Room' : {
                   'west' : 'Hall',
@@ -65,11 +65,13 @@ rooms = {
             'Pantry' : {
                   'south' : 'Dining Room',
                   'item' : 'cookie',
+                  'description' : 'The pantry holds stain clothes that smell like blood and urine. The only way out is south to the Dining room.'
             },
             #added freedom room with items (there is no true escape)
             'Freedom room' : {
                 'north' : 'Garden',
-                'item' : 'bible'
+                'item' : 'bible',
+                'description' : 'You have found the freedom room with an open window that leads to the roads. Wait! There is a shadowy figure in the corner.'
             }
          }
 
